@@ -12,4 +12,4 @@ jobs:
       - checkout
       - run: docker version
       - run: docker-compose --version
-      - run: docker build .
+      - run: docker-compose up
