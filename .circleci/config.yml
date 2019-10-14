@@ -12,4 +12,5 @@ jobs:
       - checkout
       - run: docker version
       - run: docker-compose --version
-      - run: docker-compose up
+      - run: ls -la
+      - run: docker-compose -f ./docker-compose.yml up -d
